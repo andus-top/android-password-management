@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item_add"
+        android:icon="@drawable/ic_action_add"
+        android:orderInCategory="10"
+        app:showAsAction="always"
+        android:title="@string/add"/>
+    <!--<item
+        android:id="@+id/item_import_password"
+        android:orderInCategory="10"
+        android:title="@string/import_password"/>
+    <item
+        android:id="@+id/item_output_password"
+        android:orderInCategory="10"
+        android:title="@string/output_password"/>-->
+    <item
+        android:id="@+id/item_about"
+        android:orderInCategory="10"
+        android:title="@string/about"/>
+</menu>

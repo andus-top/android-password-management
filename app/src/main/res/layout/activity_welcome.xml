@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/welcome_imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/app_name"
+        android:background="@drawable/img_welcome"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

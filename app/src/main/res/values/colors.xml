@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#50B3FA</color>
+    <color name="colorPrimaryDark">#50B3FA</color>
+    <color name="colorAccent">#50B3FA</color>
+    <color name="app_background">#F8F8F8</color>
+    <color name="text_color">#7C7F89</color>
+    <color name="white">#fff</color>
+    <color name="green">#3CB371</color>
+    <color name="balck">#000000</color>
+    <color name="tip_color">#F65EA5</color>
+    <color name="item_function_bg_pressed">#7050B3FA</color>
+    <color name="line_color">#DDDADFE5</color>
+    <color name="title_color">#50B3FA</color>
+    <color name="add_menu_bg">#FAFAFA</color>
+    <color name="text1">#59B29C</color>
+    <color name="text2">#333333</color>
+    <color name="split_line">#11112233</color>
+    <color name="bottom_btn_text">#3dddb0</color>
+    <color name="ccc">#ccc</color>
+    <color name="backgroud">#F0FFF0</color>
+</resources>

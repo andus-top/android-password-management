@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_bg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:gravity="center"
+        android:text="MyPassword"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="@string/app_version"
+        android:gravity="center"
+        android:textColor="@color/white"
+        />
+
+    <LinearLayout
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dip"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:gravity="center"
+            android:background="@drawable/login_edit_user"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_marginLeft="10dip"
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:background="@drawable/login_username" />
+
+            <EditText
+                android:id="@+id/et_login_username"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:textSize="14sp"
+                android:layout_marginLeft="20dip"
+                android:background="@null"
+                android:drawableBottom="@drawable/login_edit"
+                android:hint="用户名" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:gravity="center"
+            android:background="@drawable/login_edit_user"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_marginLeft="10dip"
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:background="@drawable/login_password" />
+
+            <EditText
+                android:id="@+id/et_login_userpwd"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:textSize="14sp"
+                android:layout_marginLeft="20dip"
+                android:background="@null"
+                android:password="true"
+                android:drawableBottom="@drawable/login_edit"
+                android:hint="用户密码" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cb_login_checkBox"
+                android:layout_marginLeft="10dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="记住密码"
+                android:textColor="#70ffffff" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:text="登     录"
+                android:textColor="#2B72A0"
+                android:background="@drawable/login_btn_bg"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="5dip"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:gravity="right"
+                android:text="Forget Password ?"
+                android:textColor="#ffffff"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="|"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_login_register"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:gravity="left"
+                android:text="New Here ? Sign Up"
+                android:textColor="#ffffff"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

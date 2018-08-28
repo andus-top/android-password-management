@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:background="@color/white">
+
+
+    <ImageView
+        android:id="@+id/iv_pwd_icon"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/ico_pwd"
+        android:focusable="false"/>
+
+    <TextView
+        android:id="@+id/tv_group_cname"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="11dp"
+        android:singleLine="true"
+        android:textSize="20sp" />
+
+</LinearLayout>

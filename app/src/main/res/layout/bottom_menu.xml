@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_bottommenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@color/app_background"
+    android:orientation="vertical"
+    >
+<!--android:layout_alignParentBottom="true"-->
+
+    <LinearLayout
+        android:id="@+id/ll_bottommenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_bottommenu_addGroup"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="添加分组"
+            android:textColor="@color/bottom_btn_text"
+            android:background="@drawable/bottom_btn"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_bottommenu_addPwd"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="添加密码"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:textColor="@color/bottom_btn_text"
+            android:background="@drawable/bottom_btn"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_bottommenu_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="18sp"
+            android:text="取消"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bottom_btn"
+            android:textColor="@color/bottom_btn_text"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

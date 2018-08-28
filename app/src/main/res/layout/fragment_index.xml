@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ExpandableListView
+            android:id="@+id/elv_groupofpwd"
+        android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:childDivider="#d0d0d0"/>
+
+    <RelativeLayout
+        android:id="@+id/fragment_password_noData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/fragment_password_noData_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/no_password_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_password_noData_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="60dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/no_group"
+            android:textColor="@color/text_color"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mypassword"
+    android:versionCode="1"
+    android:versionName="2.0"
+    >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".app.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ico_app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.WelcomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitleFullscreen"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ui.me.LoginActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitleFullscreen"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ui.me.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitleFullscreen"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ui.groupofpwd.AddGroupOfPwdActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppNoActionBarTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ui.password.AddPwdActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppNoActionBarTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ui.password.PwdDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppNoActionBarTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ui.me.ChangePwdActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppNoActionBarTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ui.me.MeInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppNoActionBarTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ui.menu.AboutActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppNoActionBarTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ui.groupofpwd.GroupDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppNoActionBarTheme"
+            android:windowSoftInputMode="adjustPan"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_border"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_add_group"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingRight="1dp"
+        android:paddingLeft="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="25sp"
+            android:text="添加分组" />
+    </LinearLayout>
+  <!--  <View xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/add_menu_bg" >
+
+    </View>-->
+    <LinearLayout
+        android:id="@+id/ll_add_pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingRight="1dp"
+        android:paddingLeft="1dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="25sp"
+            android:text="添加密码" />
+    </LinearLayout>
+
+</LinearLayout>

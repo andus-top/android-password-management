@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroud"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_mine_headPart"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/actionsheet_bottom_normal" >
+
+        <com.mypassword.views.CircleImageView
+            android:id="@+id/circleimageview_mine_photo"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@null"
+            android:paddingLeft="6dp"
+            android:src="@drawable/default_head_photo" />
+
+        <TextView
+            android:id="@+id/tv_mine_nickNmae"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:layout_toRightOf="@+id/circleimageview_mine_photo"
+            android:text="昵称:admin" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_mine_mine"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/actionsheet_bottom_normal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="12dp"
+            android:text="个人资料" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="12dp"
+            android:src="@drawable/right" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_mine_changePwd"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/actionsheet_bottom_normal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="12dp"
+            android:text="修改密码" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="12dp"
+            android:src="@drawable/right" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_mine_logOut"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/actionsheet_bottom_normal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="12dp"
+            android:text="退出登录" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="12dp"
+            android:src="@drawable/right" />
+    </RelativeLayout>
+
+</LinearLayout>
